@@ -1,0 +1,9 @@
+class  T
+{
+	public static void main(String[] args) 
+	{
+String s1=NULL;// null is not a keyword , it is reserved word , null it self value like true or false
+
+		System.out.println(s1.length());
+	}
+}

@@ -1,0 +1,13 @@
+
+	enum E{
+		CON(100), TEST(200);
+		E(int i){
+			E(String s1)
+			
+			System.out.println("A(int):"+s1);
+		}
+	}
+
+
+
+	

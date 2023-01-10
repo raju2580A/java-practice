@@ -1,0 +1,18 @@
+class text<X extends P>
+{
+	
+}
+
+
+class  Manager15
+{
+	public static void main(String[] args) 
+	{
+
+	test<P> t1 =new test<P>();
+	test<Q> t2 =new test<Q>();
+
+ 
+		System.out.println("Done");
+	}
+}

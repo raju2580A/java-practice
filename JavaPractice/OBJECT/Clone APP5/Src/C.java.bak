@@ -1,0 +1,9 @@
+class C
+{
+	public static void main(String args[]) throws CloneNotSupportedException{
+		C b1=new C();
+		  C b2=b1.clone();
+		  System.out.println(a1);
+		  System.out.println(a2);
+	}
+}

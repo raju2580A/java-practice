@@ -1,0 +1,26 @@
+//String:
+/* What is String?
+0.it is datatype, it is in built class and it available in lang.package
+1 With out import we can use string
+2.we can use reference type
+3 we have two ways string object
+*using operator and without using operater
+4. inside a string class tostring class Object class override to print the memory address
+5. how the objects internally stored?
+
+*in the memory heap area and SCP(String constant pool area
+ *string most commnly used data type
+ */
+
+class A
+{
+	public static void main(String args[]){
+	String s1="hello";
+	//System.out.println(s1);
+
+	String s2="hello";
+	//System.out.println(s2);
+	System.out.println(s1==s2);
+
+	}
+}

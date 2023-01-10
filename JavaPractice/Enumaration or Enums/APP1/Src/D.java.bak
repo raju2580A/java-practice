@@ -1,0 +1,9 @@
+enum En{
+MON,TUS,WEN,THU,FRI,SAT,SUN;
+}
+class C{
+public static void main(String [] args){
+System.out.println(En.SUN);
+System.out.println(En.THU);
+}
+}
