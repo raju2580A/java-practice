@@ -1,0 +1,12 @@
+class Z
+
+{
+	public static void main(String[] args) 
+	{
+		String s1=" abc xyz      ";
+		System.out.println(s1.length());
+		String s1=s1.trim();// inbuilt method trim. it is remove leading white spaces 
+		System.out.println(s1);
+		System.out.println(s1.length());
+	}
+}

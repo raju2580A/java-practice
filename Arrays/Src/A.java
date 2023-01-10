@@ -1,0 +1,30 @@
+class A
+{
+	public static void main(String args[]){
+		// normal approch to store huge numbers of elements
+		int i=0;
+		int j=1;
+		int k=2;
+		int l=3;
+		System.out.println(i);
+		System.out.println(j);
+		System.out.println(k);
+		System.out.println(l);
+
+		//Array approch to store huge numbers in elements
+
+		int ref[]=new int[1000];
+		
+		ref[0]=1;
+		ref[1]=2;
+		ref[2]=3;
+		ref[3]=4;
+		ref[4]=5;
+		ref[5]=6;
+
+		ref[999]=1000;
+
+
+		System.out.println(ref[999]);
+	}
+}

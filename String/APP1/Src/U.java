@@ -1,0 +1,11 @@
+class U 
+{
+	public static void main(String[] args) 
+	{
+		String s1="xyz";
+		System.out.println(s1);
+		s1.concat("hello");// once we create string object , we can't modified content of String object
+		                    // this non changing behavier we calling it as imutabulity
+		System.out.println(s1);
+	}
+}
